@@ -40,7 +40,7 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 
 # creating a df and making it visualized in the app 
 streamlit.dataframe(fruityvice_normalized)
-snowflake.stop()
+streamlit.stop()
 
 
 #Snowflake stuff
